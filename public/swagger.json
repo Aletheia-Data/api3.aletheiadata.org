@@ -1,0 +1,21 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Aletheia Data Swagger API",
+    "version": "0.0.1"
+  },
+  "paths": {
+    "/api/sources": {
+      "get": {
+        "description": "Returns all sources",
+        "responses": {
+          "200": {
+            "description": "All Aletheia sources"
+          }
+        }
+      }
+    }
+  },
+  "components": {},
+  "tags": []
+}
